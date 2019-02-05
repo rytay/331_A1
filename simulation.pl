@@ -9,7 +9,7 @@
 %%  Authors:
 %%
 %%  Rea Sharma, 40029086, reasharma091@hotmail.com
-%%  name2, id2, email2
+%%  Ryan Taylor, 40008505, ryan.taylor777@live.com
 %%  ...
 %%
 %% =============================================================================
