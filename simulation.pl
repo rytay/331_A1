@@ -31,7 +31,7 @@
     initial_state(idle, null)
 
 %% =============================================================================
-%% Transitions(source, destination, event, guard)
+%% Transitions(source, destination, event, guard, action)
 %%==============================================================================
    
    
