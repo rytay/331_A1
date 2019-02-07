@@ -45,7 +45,7 @@
    transition(idle, idle, 'after (2 min)', 'furnace temperature >= desired temperature', null).
    transition(idle, 'warming up', 'after (2 min)', 'furnace temperature < desired temperature', 'turn on furnace').
    
-   transition('warming up', configuring, interupt, true , 'turn off furnace').
+   transition('warming up', configuring, configure, true , 'turn off furnace').
    transition('warming up', idle, 'after (3 min)', 'furnace temperature > desired temperature', 'turn on click/turn on fan').
    transition('warming up', 'warming up', 'after (3 min)', 'furnace temperature < desired temperature', null).
    transition(idle, exit, 'shut off' , true, 'turn off fan/turn off furnace').
